@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harmonia Massoterapia — Bem-estar e Relaxamento</title>
+    <meta name="description"
+        content="Massoterapia profissional: relaxante, terapêutica, esportiva, estética e integrativa. Agende sua sessão.">
+    <!-- Tipografia elegante (pode remover se quiser tudo local) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Barra de navegação -->
+    <header class="header" id="topo">
+        <div class="container nav">
+            <a href="#topo" class="logo" aria-label="Harmonia Massoterapia">
+                <span class="logo__mark">✦</span> Harmonia<span>Massage</span>
+            </a>
+            <nav class="menu" aria-label="Menu principal">
+                <a href="#beneficios">Benefícios</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#planos">Planos</a>
+                <a href="#faq">FAQ</a>
+                <a class="btn btn--sm" href="#contato">Agendar</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero__bg" role="img" aria-label="Ambiente de massagem aconchegante"></div>
+        <div class="container hero__content">
+            <h1 class="hero__title">Toque que cura, pausa que transforma</h1>
+            <p class="hero__subtitle">Massoterapia personalizada para relaxar, aliviar tensões e recuperar sua energia.
+            </p>
+            <div class="hero__cta">
+                <a class="btn" href="#contato">Agendar sessão</a>
+                <a class="btn btn--ghost" href="#servicos">Ver serviços</a>
+            </div>
+            <ul class="hero__selos" aria-label="Destaques">
+                <li>💆 Profissionais certificados</li>
+                <li>🌿 Óleos 100% vegetais</li>
+                <li>🏅 Avaliação 4.9/5</li>
+            </ul>
+        </div>
+        <div class="hero__blur hero__blur--1"></div>
+        <div class="hero__blur hero__blur--2"></div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="section section--soft">
+        <div class="container">
+            <h2 class="title center">Benefícios imediatos ao seu corpo</h2>
+            <p class="lead center">Sinta a diferença na primeira sessão.</p>
+            <div class="grid grid-4">
+                <article class="card">
+                    <div class="icon">🧘</div>
+                    <h3>Menos estresse</h3>
+                    <p>Regula o sistema nervoso, acalma a mente e promove presença.</p>
+                </article>
+                <article class="card">
+                    <div class="icon">💤</div>
+                    <h3>Sono de qualidade</h3>
+                    <p>Relaxamento profundo e melhora do ciclo do sono.</p>
+                </article>
+                <article class="card">
+                    <div class="icon">🫀</div>
+                    <h3>Circulação ativa</h3>
+                    <p>Estimula fluxo sanguíneo e oxigenação dos tecidos.</p>
+                </article>
+                <article class="card">
+                    <div class="icon">🦴</div>
+                    <h3>Alívio de dores</h3>
+                    <p>Reduz tensões, contraturas e pontos gatilho.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços (organizados por categorias) -->
+    <section id="servicos" class="section">
+        <div class="container">
+            <h2 class="title center">Serviços de Massoterapia</h2>
+            <p class="lead center">Escolha a experiência ideal para o seu momento.</p>
+
+            <!-- Terapêuticas -->
+            <div class="bloc">
+                <h3 class="subtitle">Massagens Terapêuticas</h3>
+                <div class="grid grid-3">
+                    <article class="service">
+                        <h4>Massagem Relaxante</h4>
+                        <p>Toques suaves para reduzir estresse e ansiedade.</p>
+                        <span class="tag">50 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Massagem Terapêutica</h4>
+                        <p>Foco em dores específicas, contraturas e mobilidade.</p>
+                        <span class="tag">60 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Pedras Quentes</h4>
+                        <p>Relaxamento profundo com termoterapia.</p>
+                        <span class="tag">60 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Shiatsu</h4>
+                        <p>Pontos de pressão para equilíbrio de energia vital.</p>
+                        <span class="tag">50 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Reflexologia Podal</h4>
+                        <p>Estimula pontos nos pés ligados a órgãos internos.</p>
+                        <span class="tag">40 min</span>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Esportivas / Funcionais -->
+            <div class="bloc">
+                <h3 class="subtitle">Esportivas & Funcionais</h3>
+                <div class="grid grid-3">
+                    <article class="service">
+                        <h4>Massagem Desportiva</h4>
+                        <p>Preparação e recuperação muscular para atletas.</p>
+                        <span class="tag">45–60 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Liberação Miofascial</h4>
+                        <p>Trabalha aderências para aumentar a mobilidade.</p>
+                        <span class="tag">40–60 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Alongamento Assistido</h4>
+                        <p>Melhora postura e previne lesões.</p>
+                        <span class="tag">30–45 min</span>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Estéticas -->
+            <div class="bloc">
+                <h3 class="subtitle">Estéticas & Corporais</h3>
+                <div class="grid grid-3">
+                    <article class="service">
+                        <h4>Drenagem Linfática Manual</h4>
+                        <p>Reduz retenção de líquidos e melhora circulação.</p>
+                        <span class="tag">60 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Modeladora</h4>
+                        <p>Auxilia na redução de medidas e celulite.</p>
+                        <span class="tag">50–60 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Detox</h4>
+                        <p>Estímulo metabólico para eliminar toxinas.</p>
+                        <span class="tag">60 min</span>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Integrativas -->
+            <div class="bloc">
+                <h3 class="subtitle">Terapias Integrativas</h3>
+                <div class="grid grid-3">
+                    <article class="service">
+                        <h4>Aromaterapia</h4>
+                        <p>Óleos essenciais para equilíbrio físico e mental.</p>
+                        <span class="tag">Complemento</span>
+                    </article>
+                    <article class="service">
+                        <h4>Massagem Ayurvédica</h4>
+                        <p>Técnica indiana que integra corpo e mente.</p>
+                        <span class="tag">60–90 min</span>
+                    </article>
+                    <article class="service">
+                        <h4>Reiki <small>(opcional)</small></h4>
+                        <p>Equilíbrio energético por imposição de mãos.</p>
+                        <span class="tag">30–60 min</span>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Personalizados -->
+            <div class="bloc">
+                <h3 class="subtitle">Atendimento Personalizado</h3>
+                <div class="grid grid-3">
+                    <article class="service">
+                        <h4>Massagem Laboral</h4>
+                        <p>In-company para reduzir estresse e aumentar produtividade.</p>
+                        <span class="tag">Sob consulta</span>
+                    </article>
+                    <article class="service">
+                        <h4>Atendimento Domiciliar</h4>
+                        <p>Conforto da sua casa com estrutura portátil.</p>
+                        <span class="tag">Sob consulta</span>
+                    </article>
+                    <article class="service">
+                        <h4>Planos Personalizados</h4>
+                        <p>Pacotes semanais e mensais com condições especiais.</p>
+                        <span class="tag">Sob consulta</span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos -->
+    <section id="planos" class="section section--soft">
+        <div class="container">
+            <h2 class="title center">Planos & Combos</h2>
+            <p class="lead center">Economize com pacotes pensados para sua rotina.</p>
+            <div class="pricing">
+                <div class="price">
+                    <h3>Relax</h3>
+                    <p class="price__value">R$ 120</p>
+                    <ul>
+                        <li>Massagem Relaxante</li>
+                        <li>50 minutos</li>
+                        <li>Óleos vegetais</li>
+                    </ul>
+                    <a href="#contato" class="btn btn--block">Quero este</a>
+                </div>
+                <div class="price price--featured" aria-label="Mais escolhido">
+                    <div class="badge">Mais escolhido</div>
+                    <h3>Bem-Estar</h3>
+                    <p class="price__value">R$ 160</p>
+                    <ul>
+                        <li>Terapêutica completa</li>
+                        <li>60 minutos</li>
+                        <li>Foco em dores</li>
+                    </ul>
+                    <a href="#contato" class="btn btn--block">Quero este</a>
+                </div>
+                <div class="price">
+                    <h3>Detox</h3>
+                    <p class="price__value">R$ 180</p>
+                    <ul>
+                        <li>Drenagem Linfática</li>
+                        <li>60 minutos</li>
+                        <li>Plano mensal opcional</li>
+                    </ul>
+                    <a href="#contato" class="btn btn--block">Quero este</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title center">O que dizem</h2>
+            <div class="depos">
+                <blockquote class="depo">
+                    <p>“Saí renovada! As dores nas costas diminuíram já na primeira sessão.”</p>
+                    <cite>— Juliana M.</cite>
+                </blockquote>
+                <blockquote class="depo">
+                    <p>“Ambiente impecável e profissional atenciosa. Recomendo de olhos fechados.”</p>
+                    <cite>— Ricardo A.</cite>
+                </blockquote>
+                <blockquote class="depo">
+                    <p>“A drenagem foi maravilhosa, senti diferença no inchaço.”</p>
+                    <cite>— Fernanda L.</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section--soft">
+        <div class="container">
+            <h2 class="title center">Perguntas Frequentes</h2>
+            <div class="faq">
+                <details>
+                    <summary>Preciso levar algo para a sessão?</summary>
+                    <p>Não. Fornecemos toalhas, óleos e todo o material necessário.</p>
+                </details>
+                <details>
+                    <summary>Atendem convênios ou empresas?</summary>
+                    <p>Sim, para empresas oferecemos planos de massagem laboral. Solicite proposta.</p>
+                </details>
+                <details>
+                    <summary>Posso escolher a intensidade da massagem?</summary>
+                    <p>Claro! Ajustamos pressão e técnica conforme sua preferência e objetivo.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+        <div class="container grid grid-2">
+            <div>
+                <h2 class="title">Agende sua sessão</h2>
+                <p class="lead">Responderemos o mais rápido possível.</p>
+                <form class="form" onsubmit="return false" aria-label="Formulário de contato">
+                    <label class="form__group">
+                        <span>Nome</span>
+                        <input type="text" name="nome" placeholder="Seu nome" required>
+                    </label>
+                    <label class="form__group">
+                        <span>WhatsApp</span>
+                        <input type="tel" name="whatsapp" placeholder="(00) 90000-0000" required>
+                    </label>
+                    <label class="form__group">
+                        <span>Serviço</span>
+                        <select name="servico" required>
+                            <option value="" disabled selected>Selecione</option>
+                            <option>Massagem Relaxante</option>
+                            <option>Massagem Terapêutica</option>
+                            <option>Drenagem Linfática</option>
+                            <option>Liberação Miofascial</option>
+                            <option>Shiatsu</option>
+                        </select>
+                    </label>
+                    <label class="form__group">
+                        <span>Mensagem</span>
+                        <textarea name="mensagem" rows="4" placeholder="Conte como podemos ajudar"></textarea>
+                    </label>
+                    <button class="btn">Enviar</button>
+                </form>
+            </div>
+            <aside class="card contato">
+                <h3>Informações</h3>
+                <ul>
+                    <li>📍 Av. Exemplo, 123 — Fortaleza/CE</li>
+                    <li>⏰ Seg–Sáb, 9h às 19h</li>
+                    <li>📞 (85) 90000-0000</li>
+                    <li>📧 contato@harmoniamassage.com</li>
+                </ul>
+                <div class="mapa-simulado" role="img" aria-label="Mapa ilustrativo"></div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer__content">
+            <p>© <span id="ano"></span> Harmonia Massoterapia. Todos os direitos reservados.</p>
+            <a href="#topo" class="topo">↑ Voltar ao topo</a>
+        </div>
+    </footer>
+
+    <!-- Sem JS funcional; apenas atualiza ano se desejar trocar por JS depois -->
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

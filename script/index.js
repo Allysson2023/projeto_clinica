@@ -11,3 +11,11 @@ fields.forEach(function( field, index ){
 
 });
 console.log(user);
+
+document.getElementById("form-user-create").addEventListener("submit", function( event ){
+    // Cancelar o Evento
+    event.preventDefault();
+    console.log(user);
+    
+})
+

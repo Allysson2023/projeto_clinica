@@ -300,20 +300,20 @@
             <div>
                 <h2 class="title">Agende sua sessão</h2>
                 <p class="lead">Responderemos o mais rápido possível.</p>
-                <form class="form" onsubmit="return false" aria-label="Formulário de contato">
+                <form id="form-user-create" class="form" onsubmit="return false" aria-label="Formulário de contato">
                     <label class="form__group">
                         <span>Nome</span>
-                        <input type="text" name="nome" placeholder="Seu nome" required>
+                        <input value="Allysson" id="name" type="text" name="nome" placeholder="Seu nome" required>
                     </label>
                     <label class="form__group">
                         <span>WhatsApp</span>
-                        <input type="tel" name="whatsapp" placeholder="(00) 90000-0000" required>
+                        <input id="whatsapp" type="tel" name="whatsapp" placeholder="(00) 90000-0000" required>
                     </label>
                     <label class="form__group">
                         <span>Serviço</span>
                         <select name="servico" required>
-                            <option value="" disabled selected>Selecione</option>
-                            <option>Massagem Relaxante</option>
+                            <option value="">Selecione</option>
+                            <option selected="">Massagem Relaxante</option>
                             <option>Massagem Terapêutica</option>
                             <option>Drenagem Linfática</option>
                             <option>Liberação Miofascial</option>
@@ -349,9 +349,7 @@
     </footer>
 
     <!-- Sem JS funcional; apenas atualiza ano se desejar trocar por JS depois -->
-    <script>
-        document.getElementById('ano').textContent = new Date().getFullYear();
-    </script>
+    <script src="script/index.js"></script>
 </body>
 
 </html>
